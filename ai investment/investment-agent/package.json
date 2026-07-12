@@ -1,0 +1,30 @@
+{
+  "name": "ai-investment-research-agent",
+  "version": "1.0.0",
+  "private": true,
+  "description": "An AI Investment Research Agent built with Next.js, LangGraph.js and Google Gemini.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@langchain/core": "^0.3.19",
+    "@langchain/google-genai": "^0.1.4",
+    "@langchain/langgraph": "^0.2.19",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
